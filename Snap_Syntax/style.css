@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.front_page{
+    background-color: #ACE4E3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:60vh;
+}
+
+p{
+    display: block;
+}
+
+.second_page{
+    background-color: #003E29;
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slides{
+    background-color: #0B4350;
+    height: 50%;
+    width: 50%;
+    margin: 20px;
+}
+.number{
+    height: 100px;
+    width: 100px;
+}
+
+.number h1{
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+    color: #ACE4E3;
+}
+
+.text{
+    display: flex;
+    height: 50%;
+    width: 50%;
+}
+
+.text-1 {
+    height:50%;
+    width: 50%;
+    float: left;
+    color: #F58BCF;
+    font-weight: bold;
+}
+
+.text-2 {
+    height:50%;
+    width: 50%;
+    float: right;
+    color: #F58BCF;
+}
